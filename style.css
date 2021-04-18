@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper h1 {
+    background-color: #fcfcfc;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 3px solid black;
+    margin: 15px 15px 15px 0px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+p {
+    font-size: 13px;
+    padding: 3px 0px;
+}
+
+.top p {
+    margin: -25px 0px 10px;
+    text-align: center;
+}
+
+.university p {
+    display: inline-block;
+
+}
+
+.university p:nth-of-type(2) {
+    padding-left: 130px;
+}
+
+.university p:nth-of-type(3) {
+    padding: 0px 0px 10px 40px;
+}
+
+.secondary p {
+    display: inline-block;
+}
+
+.secondary p:nth-of-type(2) {
+    padding-left: 86px;
+}
+
+.secondary p:nth-of-type(3) {
+    padding: 0px 0px 10px 40px;
+}
+
+.primary p {
+    display: inline-block;
+}
+
+.primary p:nth-of-type(2) {
+    padding-left: 375px;
+}
+
+.primary p:nth-of-type(3) {
+    padding: 0px 0px 10px 40px;
+}
+
+.zuri p {
+    display: inline-block;
+}
+
+.zuri p:nth-of-type(2) {
+    padding-left: 210px;
+}
+
+.zuri p:nth-of-type(3) {
+    padding: 0px 0px 10px 40px;
+}
+
+.martrite p {
+    display: inline-block;
+}
+
+.martrite p:nth-of-type(2) {
+    padding-left: 162.8px;
+}
+
+.martrite p:nth-of-type(3) {
+    padding: 0px 0px 10px 40px;
+}
+
+.Chapal p {
+    display: inline-block;
+}
+
+.Chapal p:nth-of-type(2) {
+    padding-left: 260px;
+}
+
+.Chapal p:nth-of-type(3) {
+    padding: 0px 0px 10px 40px;
+}
+
+.reference ul {
+    font-size: 13px;
+    padding-left: 40px;
+}
+
+@media screen and (min-width:800px) {
+    .wrapper {
+        width: 800px;
+        align-items: center;
+    }
+
+    .wrapper h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .header p {
+        display: inline-block;
+    }
+
+    .header p:nth-of-type(2) {
+        padding-left: 310px;
+    }
+
+    .header p:nth-of-type(4) {
+        padding-left: 167px;
+    }
+
+    .university p:nth-of-type(2) {
+        padding-left: 350px;
+    }
+
+    .secondary p:nth-of-type(2) {
+        padding-left: 303px;
+    }
+
+    .primary p:nth-of-type(2) {
+        padding-left: 195px;
+    }
+
+    .zuri p:nth-of-type(2) {
+        padding-left: 440px;
+    }
+
+    .martrite p:nth-of-type(2) {
+        padding-left: 417px;
+    }
+
+    .Chapal p:nth-of-type(2) {
+        padding-left: 210px;
+    }
+
+    .reference {
+        width: 800px;
+        padding: 0px 25px;
+    }
+
+
+
+
+
+}
